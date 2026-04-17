@@ -21,44 +21,44 @@ export default function CTA() {
           
           <div className="flex flex-col gap-6">
             <h2 className="text-4xl md:text-6xl font-serif font-bold tracking-tight">
-              Ready to Claim Your <br />
-              <span className="text-primary italic">Signature Look?</span>
+              Siap Menentukan <br />
+              <span className="text-primary italic">Gaya Khas Anda?</span>
             </h2>
             <p className="text-zinc-500 font-light max-w-lg mx-auto leading-relaxed">
-              Booking your chair is only a click away. Our master barbers are ready to deliver 
-              the best grooming experience of your life.
+              Memesan kursi Anda hanya sejarak satu klik. Barber ahli kami siap memberikan 
+              pengalaman perawatan terbaik dalam hidup Anda.
             </p>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-6 items-center w-full justify-center">
             <button className="w-full sm:w-auto bg-primary hover:bg-accent text-zinc-950 px-12 py-5 font-bold uppercase tracking-widest transition-all">
-              Book Appointment
+              Buat Janji Temu
             </button>
             <a 
-              href="tel:+1234567890" 
+              href="tel:+622112345678" 
               className="flex items-center gap-3 text-zinc-100 hover:text-primary transition-colors font-bold uppercase tracking-widest text-sm"
             >
               <Phone className="w-5 h-5" />
-              Call (123) 456-7890
+              Hubungi (021) 1234-5678
             </a>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 w-full mt-4 pt-12 border-t border-zinc-800/50">
             <div className="flex flex-col">
-              <span className="text-[10px] uppercase tracking-widest text-zinc-600 font-bold mb-1">Mon - Fri</span>
-              <span className="text-zinc-400 font-serif">9:00 - 20:00</span>
+              <span className="text-[10px] uppercase tracking-widest text-zinc-600 font-bold mb-1">Sen - Jum</span>
+              <span className="text-zinc-400 font-serif">09:00 - 20:00</span>
             </div>
             <div className="flex flex-col">
-              <span className="text-[10px] uppercase tracking-widest text-zinc-600 font-bold mb-1">Saturday</span>
+              <span className="text-[10px] uppercase tracking-widest text-zinc-600 font-bold mb-1">Sabtu</span>
               <span className="text-zinc-400 font-serif">10:00 - 18:00</span>
             </div>
             <div className="flex flex-col">
-              <span className="text-[10px] uppercase tracking-widest text-zinc-600 font-bold mb-1">Sunday</span>
-              <span className="text-zinc-400 font-serif font-bold text-primary italic">Closed</span>
+              <span className="text-[10px] uppercase tracking-widest text-zinc-600 font-bold mb-1">Minggu</span>
+              <span className="text-zinc-400 font-serif font-bold text-primary italic">Tutup</span>
             </div>
             <div className="flex flex-col">
-              <span className="text-[10px] uppercase tracking-widest text-zinc-600 font-bold mb-1">Location</span>
-              <span className="text-zinc-400 font-serif">Mayfair, London</span>
+              <span className="text-[10px] uppercase tracking-widest text-zinc-600 font-bold mb-1">Lokasi</span>
+              <span className="text-zinc-400 font-serif">Senopati, Jakarta</span>
             </div>
           </div>
         </motion.div>

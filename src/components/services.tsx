@@ -5,27 +5,27 @@ import { Scissors, User, UserCheck, Zap } from "lucide-react";
 
 const services = [
   {
-    title: "Executive Cut",
-    description: "Precision haircut followed by a detailed style and hot towel neck shave.",
-    price: "$45",
+    title: "Potongan Eksekutif",
+    description: "Potongan rambut presisi diikuti dengan penataan detail dan cukur leher handuk panas.",
+    price: "Rp150k",
     icon: <Scissors className="w-6 h-6" />,
   },
   {
-    title: "Beard Sculpture",
-    description: "Expert beard shaping, line-up, and conditioning with premium oils.",
-    price: "$30",
+    title: "Seni Jenggot",
+    description: "Pembentukan jenggot ahli, perapihan garis, dan pengkondisian dengan minyak premium.",
+    price: "Rp100k",
     icon: <User className="w-6 h-6" />,
   },
   {
-    title: "The Classic Shave",
-    description: "Straight razor shave with multi-step hot towel treatment and cooling balm.",
-    price: "$35",
+    title: "Cukur Klasik",
+    description: "Cukur pisau lipat dengan perawatan handuk panas multi-langkah dan balm pendingin.",
+    price: "Rp120k",
     icon: <UserCheck className="w-6 h-6" />,
   },
   {
-    title: "Full Service",
-    description: "Our signature haircut and beard grooming combo for the ultimate experience.",
-    price: "$70",
+    title: "Layanan Lengkap",
+    description: "Kombinasi potongan rambut khas dan perawatan jenggot untuk pengalaman terbaik.",
+    price: "Rp250k",
     icon: <Zap className="w-6 h-6" />,
   },
 ];
@@ -41,7 +41,7 @@ export default function Services() {
             transition={{ duration: 0.5 }}
             className="text-primary uppercase tracking-[0.3em] text-sm font-bold mb-4"
           >
-            Our Expertise
+            Keahlian Kami
           </motion.h2>
           <motion.h3 
             initial={{ opacity: 0, y: 20 }}
@@ -49,7 +49,7 @@ export default function Services() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-4xl md:text-6xl font-serif font-bold mb-6"
           >
-            Curated Services
+            Layanan Pilihan
           </motion.h3>
           <div className="w-24 h-[1px] bg-zinc-800 mx-auto" />
         </div>
@@ -73,7 +73,7 @@ export default function Services() {
               <div className="flex items-center justify-between mt-auto">
                 <span className="text-2xl font-serif font-bold text-primary">{service.price}</span>
                 <span className="text-[10px] uppercase tracking-widest text-zinc-600 font-bold group-hover:text-primary transition-colors">
-                  45 Minutes
+                  45 Menit
                 </span>
               </div>
             </motion.div>

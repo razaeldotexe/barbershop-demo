@@ -25,7 +25,7 @@ export default function About() {
             <div className="absolute top-1/2 -right-12 -translate-y-1/2 hidden lg:block">
               <div className="bg-primary px-8 py-10 flex flex-col items-center justify-center">
                 <span className="text-5xl font-serif font-bold text-zinc-950">25+</span>
-                <span className="text-xs uppercase tracking-widest text-zinc-950 font-bold mt-2">Years Exp.</span>
+                <span className="text-xs uppercase tracking-widest text-zinc-950 font-bold mt-2">Thn Pengalaman</span>
               </div>
             </div>
           </motion.div>
@@ -38,27 +38,26 @@ export default function About() {
           >
             <div className="w-12 h-[2px] bg-primary" />
             <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight">
-              A Legacy of Craftsmanship <br />
-              <span className="italic font-light text-zinc-500 text-3xl md:text-5xl">Since 1998</span>
+              Warisan Keahlian <br />
+              <span className="italic font-light text-zinc-500 text-3xl md:text-5xl">Sejak 1998</span>
             </h2>
             <p className="text-lg text-zinc-400 font-light leading-relaxed max-w-xl">
-              At MANSCAPED, we believe that grooming is more than just a routine—it's a ritual. 
-              Founded on the principles of traditional barbering, we've created a sanctuary 
-              where the modern gentleman can escape the noise and rediscover the art of the cut.
+              Di MANSCAPED, kami percaya bahwa perawatan pria lebih dari sekadar rutinitas—ini adalah sebuah ritual. 
+              Didirikan di atas prinsip-prinsip barbering tradisional, kami menciptakan tempat 
+              di mana pria modern dapat melarikan diri dari kebisingan dan menemukan kembali seni memotong rambut.
             </p>
             <p className="text-lg text-zinc-400 font-light leading-relaxed max-w-xl">
-              Our master barbers are artisans, trained in the storied traditions of London 
-              and Rome, yet intimately familiar with the cutting-edge trends of today. 
-              We don't just cut hair; we sculpt confidence.
+              Barber ahli kami adalah seniman yang terlatih dalam tradisi lama, namun sangat memahami tren 
+              terkini saat ini. Kami tidak hanya memotong rambut; kami membentuk kepercayaan diri.
             </p>
             <div className="grid grid-cols-2 gap-8 mt-4">
               <div>
-                <h4 className="text-sm uppercase tracking-widest font-bold text-primary mb-2">Master Barbers</h4>
-                <p className="text-zinc-500 text-sm">Every chair is manned by a seasoned professional with a minimum of 10 years experience.</p>
+                <h4 className="text-sm uppercase tracking-widest font-bold text-primary mb-2">Master Barber</h4>
+                <p className="text-zinc-500 text-sm">Setiap kursi diisi oleh profesional berpengalaman dengan minimal 10 tahun jam terbang.</p>
               </div>
               <div>
-                <h4 className="text-sm uppercase tracking-widest font-bold text-primary mb-2">Premium Products</h4>
-                <p className="text-zinc-500 text-sm">We exclusively use artisan-crafted pomades and small-batch shaving creams.</p>
+                <h4 className="text-sm uppercase tracking-widest font-bold text-primary mb-2">Produk Premium</h4>
+                <p className="text-zinc-500 text-sm">Kami secara eksklusif menggunakan pomade buatan tangan dan krim cukur batch kecil.</p>
               </div>
             </div>
           </motion.div>

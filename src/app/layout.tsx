@@ -13,14 +13,14 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "MANSCAPED | Premium Barbershop for the Modern Gentleman",
-  description: "Experience the art of grooming at MANSCAPED. We offer premium haircuts, classic beard trims, and executive shaves in a modern, elegant atmosphere.",
+  title: "MANSCAPED | Barbershop Premium untuk Pria Modern",
+  description: "Rasakan seni perawatan pria di MANSCAPED. Kami menawarkan potong rambut premium, cukur jenggot klasik, dan layanan eksekutif dalam suasana modern yang elegan.",
   openGraph: {
-    title: "MANSCAPED | Premium Barbershop",
-    description: "Experience the art of grooming at MANSCAPED.",
-    url: "https://manscaped-barber.com",
+    title: "MANSCAPED | Barbershop Premium",
+    description: "Rasakan seni perawatan pria di MANSCAPED.",
+    url: "https://manscaped-barber.id",
     siteName: "MANSCAPED",
-    locale: "en_US",
+    locale: "id_ID",
     type: "website",
   },
 };
@@ -31,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="id" className="scroll-smooth">
       <body className={`${inter.variable} ${playfair.variable} font-sans bg-zinc-950 text-zinc-50 antialiased`}>
         {children}
       </body>

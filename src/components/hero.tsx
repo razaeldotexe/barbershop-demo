@@ -25,28 +25,28 @@ export default function Hero() {
         >
           <div className="w-16 h-[1px] bg-primary mb-6" />
           <h2 className="text-primary tracking-[0.3em] uppercase text-sm font-bold mb-4">
-            Established 1998
+            Berdiri Sejak 1998
           </h2>
           <h1 className="text-5xl md:text-8xl font-serif font-bold tracking-tight mb-8 leading-[1.1]">
-            Elevate Your Style <br />
-            <span className="italic text-zinc-400">Masterfully.</span>
+            Tingkatkan Gaya Anda <br />
+            <span className="italic text-zinc-400">Dengan Sempurna.</span>
           </h1>
           <p className="text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto mb-10 font-light leading-relaxed">
-            Experience the pinnacle of traditional grooming. Our master barbers blend timeless techniques 
-            with modern sophistication for the gentleman who demands perfection.
+            Rasakan puncak perawatan tradisional. Barber ahli kami memadukan teknik abadi 
+            dengan kecanggihan modern untuk pria yang menuntut kesempurnaan.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
             <Link
               href="#contact"
               className="bg-primary hover:bg-accent text-zinc-950 px-10 py-4 rounded-none font-bold uppercase tracking-widest transition-all hover:scale-105 active:scale-95 text-sm"
             >
-              Book Your Appointment
+              Buat Janji Temu
             </Link>
             <Link
               href="#services"
               className="border border-zinc-800 hover:border-primary text-zinc-50 px-10 py-4 rounded-none font-bold uppercase tracking-widest transition-all text-sm"
             >
-              View Services
+              Lihat Layanan
             </Link>
           </div>
         </motion.div>

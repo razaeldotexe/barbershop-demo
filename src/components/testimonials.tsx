@@ -5,21 +5,21 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "James Sterling",
-    role: "Architect",
-    content: "The attention to detail here is unparalleled. It's not just a haircut, it's an experience of absolute refinement and classic masculinity.",
+    name: "Bambang Soetedjo",
+    role: "Arsitek",
+    content: "Perhatian terhadap detail di sini tidak tertandingi. Ini bukan sekadar potong rambut, ini adalah pengalaman maskulinitas klasik yang sangat berkelas.",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80",
   },
   {
-    name: "Benjamin Hayes",
-    role: "Senior Partner",
-    content: "Founding my look at MANSCAPED changed everything. Their master barbers have an intuitive sense of style that perfectly matches my professional life.",
+    name: "Rian Hidayat",
+    role: "Pengusaha",
+    content: "Menemukan gaya saya di MANSCAPED mengubah segalanya. Barber ahli mereka memiliki intuisi gaya yang sangat cocok dengan kehidupan profesional saya.",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80",
   },
   {
-    name: "Julian Vane",
-    role: "Artist",
-    content: "Finally, a place that understands the nuance of a proper beard sculpture. The straight razor finish is something every man should experience at least once.",
+    name: "Aditya Pratama",
+    role: "Seniman",
+    content: "Akhirnya, tempat yang memahami nuansa pembentukan jenggot yang tepat. Hasil akhir pisau lipatnya adalah sesuatu yang harus dirasakan setiap pria.",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80",
   },
 ];
@@ -35,7 +35,7 @@ export default function Testimonials() {
             transition={{ duration: 0.5 }}
             className="text-primary uppercase tracking-[0.3em] text-sm font-bold mb-4"
           >
-            Client Voices
+            Suara Pelanggan
           </motion.h2>
           <motion.h3
             initial={{ opacity: 0, y: 20 }}
@@ -43,7 +43,7 @@ export default function Testimonials() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-4xl md:text-5xl font-serif font-bold"
           >
-            The Gentleman&apos;s Verdict
+            Penilaian Sang Pria
           </motion.h3>
         </div>
 

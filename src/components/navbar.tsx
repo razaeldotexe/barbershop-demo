@@ -6,10 +6,10 @@ import { Scissors, Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
-  { name: "Services", href: "#services" },
-  { name: "About", href: "#about" },
-  { name: "Reviews", href: "#reviews" },
-  { name: "Contact", href: "#contact" },
+  { name: "Layanan", href: "#services" },
+  { name: "Tentang", href: "#about" },
+  { name: "Ulasan", href: "#reviews" },
+  { name: "Kontak", href: "#contact" },
 ];
 
 export default function Navbar() {
@@ -52,7 +52,7 @@ export default function Navbar() {
             href="#contact"
             className="bg-primary hover:bg-accent text-zinc-950 px-6 py-2 rounded-none font-bold uppercase tracking-widest transition-colors text-sm"
           >
-            Book Now
+            Pesan Sekarang
           </Link>
         </div>
 
@@ -83,7 +83,7 @@ export default function Navbar() {
             className="bg-primary text-zinc-950 px-6 py-3 text-center font-bold uppercase tracking-widest"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Book Appointment
+            Buat Janji Temu
           </Link>
         </div>
       )}

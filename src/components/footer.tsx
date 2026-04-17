@@ -13,9 +13,9 @@ export default function Footer() {
               <span className="text-2xl font-serif font-bold tracking-tighter">MANSCAPED</span>
             </Link>
             <p className="text-zinc-500 font-light max-w-md leading-relaxed">
-              We provide the modern gentleman with a legacy of traditional grooming. 
-              Our sanctuary is built on craftsmanship, mastery, and the art of the cut. 
-              Elevate your style with London&apos;s finest.
+              Kami memberikan warisan perawatan pria tradisional bagi pria modern. 
+              Tempat kami dibangun di atas keahlian, penguasaan, dan seni memotong rambut. 
+              Tingkatkan gaya Anda dengan yang terbaik di Jakarta.
             </p>
             <div className="flex items-center gap-4">
               <div className="w-10 h-10 bg-zinc-900 flex items-center justify-center text-zinc-400">
@@ -32,12 +32,12 @@ export default function Footer() {
 
           {/* Links */}
           <div className="flex flex-col gap-6">
-            <h4 className="text-xs uppercase tracking-[0.3em] font-bold text-zinc-100">Quick Links</h4>
+            <h4 className="text-xs uppercase tracking-[0.3em] font-bold text-zinc-100">Tautan Cepat</h4>
             <div className="flex flex-col gap-4">
-              <Link href="#services" className="text-zinc-500 hover:text-primary transition-colors text-sm uppercase tracking-widest font-medium">Services</Link>
-              <Link href="#about" className="text-zinc-500 hover:text-primary transition-colors text-sm uppercase tracking-widest font-medium">About Us</Link>
-              <Link href="#reviews" className="text-zinc-500 hover:text-primary transition-colors text-sm uppercase tracking-widest font-medium">Testimonials</Link>
-              <Link href="#contact" className="text-zinc-500 hover:text-primary transition-colors text-sm uppercase tracking-widest font-medium">Booking</Link>
+              <Link href="#services" className="text-zinc-500 hover:text-primary transition-colors text-sm uppercase tracking-widest font-medium">Layanan</Link>
+              <Link href="#about" className="text-zinc-500 hover:text-primary transition-colors text-sm uppercase tracking-widest font-medium">Tentang Kami</Link>
+              <Link href="#reviews" className="text-zinc-500 hover:text-primary transition-colors text-sm uppercase tracking-widest font-medium">Testimoni</Link>
+              <Link href="#contact" className="text-zinc-500 hover:text-primary transition-colors text-sm uppercase tracking-widest font-medium">Reservasi</Link>
             </div>
           </div>
 
@@ -45,12 +45,12 @@ export default function Footer() {
           <div className="flex flex-col gap-6">
             <h4 className="text-xs uppercase tracking-[0.3em] font-bold text-zinc-100">Newsletter</h4>
             <p className="text-zinc-600 text-xs font-light leading-relaxed">
-              Join the club for exclusive style tips and early access to bookings.
+              Bergabunglah dengan klub untuk tips gaya eksklusif dan akses awal ke reservasi.
             </p>
             <div className="flex gap-2">
               <input 
                 type="email" 
-                placeholder="Email Address" 
+                placeholder="Alamat Email" 
                 className="bg-zinc-900 border border-zinc-800 px-4 py-3 text-xs focus:outline-none focus:border-primary w-full text-zinc-400"
               />
               <button className="bg-primary text-zinc-950 px-4 py-3 flex items-center justify-center hover:bg-accent transition-colors">
@@ -63,11 +63,11 @@ export default function Footer() {
         {/* Copyright */}
         <div className="pt-10 border-t border-zinc-900 flex flex-col md:row items-center justify-between gap-6 text-center md:text-left">
           <p className="text-[10px] uppercase tracking-[0.2em] text-zinc-700 font-bold">
-            © 2026 MANSCAPED Barbershop. All Rights Reserved. Crafted for the Modern Gentleman.
+            © 2026 MANSCAPED Barbershop. Seluruh Hak Cipta Dilindungi. Dibuat untuk Pria Modern.
           </p>
           <div className="flex gap-8">
-            <a href="#" className="text-[10px] uppercase tracking-[0.2em] text-zinc-700 font-bold hover:text-primary transition-colors">Privacy Policy</a>
-            <a href="#" className="text-[10px] uppercase tracking-[0.2em] text-zinc-700 font-bold hover:text-primary transition-colors">Terms of Service</a>
+            <a href="#" className="text-[10px] uppercase tracking-[0.2em] text-zinc-700 font-bold hover:text-primary transition-colors">Kebijakan Privasi</a>
+            <a href="#" className="text-[10px] uppercase tracking-[0.2em] text-zinc-700 font-bold hover:text-primary transition-colors">Syarat & Ketentuan</a>
           </div>
         </div>
       </div>
