@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Scissors, Menu, X } from "lucide-react";
+import Image from "next/image";
+import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
@@ -33,7 +34,13 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group">
-          <Scissors className="w-8 h-8 text-primary group-hover:rotate-12 transition-transform" />
+          <Image 
+            src="/icon_transparent.png" 
+            alt="MANSCAPED Icon" 
+            width={32} 
+            height={32} 
+            className="w-8 h-8 group-hover:rotate-12 transition-transform"
+          />
           <span className="text-2xl font-serif font-bold tracking-tighter">MANSCAPED</span>
         </Link>
 

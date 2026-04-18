@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Scissors, Phone, MapPin, Mail } from "lucide-react";
+import Image from "next/image";
+import { Phone, MapPin, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -9,7 +10,13 @@ export default function Footer() {
           {/* Logo & About */}
           <div className="md:col-span-2 flex flex-col gap-6">
             <Link href="/" className="flex items-center gap-2 group">
-              <Scissors className="w-8 h-8 text-primary group-hover:rotate-12 transition-transform" />
+              <Image 
+                src="/icon_transparent.png" 
+                alt="MANSCAPED Icon" 
+                width={32} 
+                height={32} 
+                className="w-8 h-8 group-hover:rotate-12 transition-transform"
+              />
               <span className="text-2xl font-serif font-bold tracking-tighter">MANSCAPED</span>
             </Link>
             <p className="text-zinc-500 font-light max-w-md leading-relaxed">

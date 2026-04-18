@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Scissors } from "lucide-react";
 
 export default function Hero() {
   return (
